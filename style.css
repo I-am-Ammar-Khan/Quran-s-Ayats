@@ -11,12 +11,18 @@ body{
     height: 97vh;
     
 }
-    main{
-    width: 75vw;
+main{
+    width: 65vw;
+    border: 10px solid #522819;
+    padding:22px;
 }
 #ayat{
     font-size: 3rem;
     font-family: 'Scheherazade New', serif;
+}
+.line{
+    background-color: #522819;
+    height: 2px;
 }
 
 #meaning{
@@ -27,8 +33,9 @@ body{
     background: #522819;
     font-size: 1.2rem;
     color: #bea177;
-    padding: 7px;
-    border-radius: 4px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0px solid;
 }
 
 
@@ -39,3 +46,41 @@ https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-1.2.1&ixid
 https://images.unsplash.com/photo-1589462135796-2b46e4bdd7fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHF1cmFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
 https://images.unsplash.com/photo-1627337840960-d55af60bf8e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fHF1cmFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
 */
+
+  @media (min-width: 100px) and (max-width: 800px) {
+    body{
+      height: 100vh;
+      background-image: url(https://images.pexels.com/photos/1530216/pexels-photo-1530216.jpeg);
+      font-size:0.5rem;
+      background-position: center;
+      background-attachment: cover;
+      color: rgb(0, 0, 0);
+      filter: grayscale(1);
+    }
+    main{
+        border: 0px solid #000;
+        /* background: rgba(255, 255, 255, 0.263); */
+
+    }
+    #ayat{
+        font-size:2rem;
+        font-family: 'Scheherazade New', serif;
+    }
+    #meaning{
+        color: #000;
+    }
+    .line{
+        background-color: #000;
+        height: 1px;
+    }
+    #button{
+        font-family: 'Century', Courier, monospace;
+        background: #2f302a;
+        font-size: 1.2rem;
+        color: #edffde;
+        padding: 12px;
+        border-radius: 8px;
+        border: 0px solid;
+        margin-bottom: 20vh;
+    }
+  }
