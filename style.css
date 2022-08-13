@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    background: no-repeat url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg);
+    background-size: cover;
+    /* font: size 7rem; */
+    text-align: center;
+    color: #522819;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    
+}
+    main{
+    width: 75vw;
+}
+#ayat{
+    font-size: 3rem;
+    font-family: 'Scheherazade New', serif;
+}
+
+#meaning{
+    font-family: 'Century', Courier, monospace;
+}
+#button{
+    font-family: 'Century', Courier, monospace;
+    background: #522819;
+    font-size: 1.2rem;
+    color: #bea177;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+
+/* https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVyYW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVyYW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 */
+
+/* https://images.pexels.com/photos/4463896/pexels-photo-4463896.jpeg?auto=compress&cs=tinysrgb&w=600 
+https://images.unsplash.com/photo-1589462135796-2b46e4bdd7fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHF1cmFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+https://images.unsplash.com/photo-1627337840960-d55af60bf8e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fHF1cmFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+*/
