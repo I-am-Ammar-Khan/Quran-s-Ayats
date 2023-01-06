@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
 body{
     background-color: black;
     background: no-repeat url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg);
@@ -18,7 +19,8 @@ main{
 }
 #ayat{
     font-size: 3rem;
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Amiri Quran', serif;
+    /* font-family: 'Scheherazade New', serif; */
 }
 .line{
     background-color: #522819;
@@ -38,6 +40,9 @@ main{
     border: 0px solid;
 }
 
+::selection{
+    background-color: rgba(0, 0, 0, 0.421);
+}
 
 /* https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVyYW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
 https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVyYW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 */
@@ -55,7 +60,7 @@ https://images.unsplash.com/photo-1627337840960-d55af60bf8e3?ixlib=rb-1.2.1&ixid
       background-position: center;
       background-attachment: cover;
       color: rgb(0, 0, 0);
-      filter: grayscale(1);
+      /* filter: grayscale(1); */
     }
     main{
         border: 0px solid #000;
@@ -64,7 +69,7 @@ https://images.unsplash.com/photo-1627337840960-d55af60bf8e3?ixlib=rb-1.2.1&ixid
     }
     #ayat{
         font-size:2rem;
-        font-family: 'Scheherazade New', serif;
+        font-family: 'Amiri Quran', serif;
     }
     #meaning{
         color: #000;

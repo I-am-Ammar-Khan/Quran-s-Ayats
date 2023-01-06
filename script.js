@@ -4,8 +4,8 @@ function getRandomInt(max) {
 
 var random_ayat = getRandomInt(6236+1);
 
-var ara = 'https://api.alquran.cloud/ayah/'+random_ayat
-var eng = 'https://api.alquran.cloud/ayah/'+random_ayat+'/en.asad'
+var ara = 'https://api.alquran.cloud/v1/ayah/'+random_ayat
+var eng = 'https://api.alquran.cloud/v1/ayah/'+random_ayat+'/en.asad'
 
 fetch(ara)
 .then((response) =>{
